@@ -77,7 +77,6 @@ public class SpawnController : MonoBehaviour
             spawnedBallSpeed = new Vector3(-9,0,9);
             SpawnBall(spawnedBallPosition, spawnedBallSpeed);
         }
-        
     }
 
     private void SpawnBall(Vector3 spawnedBallSpeed, Vector3 spawnedBallPosition)

@@ -14,15 +14,8 @@ public class BallController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // resetSpeed.x = speed.x;
         rig = GetComponent<Rigidbody>();
         rig.velocity = speed;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void OnTriggerEnter(Collider collision)

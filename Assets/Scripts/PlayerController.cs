@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
 
     public void playerDefeat()
     {
-        // turns paddle into wall
+        // delete paddle
         if (player1)
         {
             gameObject.SetActive(false);

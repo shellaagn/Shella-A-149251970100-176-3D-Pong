@@ -8,12 +8,6 @@ public class ScoreController : MonoBehaviour
     public Text scoretextP1, scoretextP2, scoretextP3, scoretextP4;
     public ScoreManager manager;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

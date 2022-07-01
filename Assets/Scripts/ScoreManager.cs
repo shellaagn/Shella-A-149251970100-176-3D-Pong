@@ -7,8 +7,8 @@ public class ScoreManager : MonoBehaviour
 {
     // count score
     public int scoreP1, scoreP2, scoreP3, scoreP4;
-    public int maxScore = 15;
-    public int defeatedPlayer;
+    public int maxScore;
+    private int defeatedPlayer;
 
     // control paddle
     public BallController ball;
